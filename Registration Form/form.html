@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Registration Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form id="survey-form">
+      <label id="name-label" for="name"> Name: </label>
+      <input id="name" type="text" required placeholder="Enter your name"/>
+
+      <label id="email-label" for="email" > Email: </label>
+      <input id="email" type="email" required placeholder="Enter your email" />
+
+            <label id="number-label" for="number"> Number: </label>
+      <input id="number" type="number" min="0" max="9999999" required placeholder="Enter your number"/>
+
+<label for="dropdown"> Select your role: </label>
+
+      <select id="dropdown">
+        <option> Select Any One (option) </option>
+        <option> Internee </option>
+        <option> Developer Associate </option>
+                  <option> Software Engineer </option>
+
+                  <option> Project Manager </option>
+                            <option> Prefer Not to Say </option>
+                              <option> Other </option>
+        </select>
+
+        <label>Would you endorse my development efforts?</label>
+        <label for="yes" class="inline"> Yes </label>
+        <input id = "yes"  name="endorse" type="radio" value="Yes"/>
+
+        <label for="no" class="inline"> No </label>
+        <input id = "no" name="endorse" type="radio" value="No"/>
+
+                <label for="maybe" class="inline" > Maybe </label>
+        <input id = "maybe"  type="radio" value="Maybe" name="endorse" />
+
+        <label>What skills should I focus on?</label>
+        <label for="development" class="inline"> Development </label>
+        <input id = "development" type="checkbox" value="Development" />
+
+        <label for="algorithms" class="inline"> Algorithms </label>
+        <input id = "algorithms" type="checkbox" value="Algorithms" />
+
+                <label for="design" class="inline" > Design Principles </label>
+        <input id = "design" type="checkbox" value="Design Principles"/>
+    
+<label for="bio">Additional Remarks:
+
+
+          <textarea id="bio" class="inline" name="bio" rows="3" cols="30" placeholder="Please add your remarks...">
+
+          </textarea>
+        </label>
+        <input id="submit"type="submit" value="Submit" />
+        </form>
+  </body>
+</html>
