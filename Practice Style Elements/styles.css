@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0
+}
+
+#cover{
+    background-image: url(./images/pattern.jpeg);
+    margin: 50px 10px;
+}
+
+#cover h1{
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+#section_one{
+    margin: 20px 10px;
+}
+#section_one h2{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0;
+    background-color: mediumspringgreen;
+}
+
+p{
+    display: inline;
+}
+
+.blue_color{
+    font-family: Halventica;
+    font-weight: bold;
+    color: blue;
+}
+
+#section_two h2{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0;
+    background-color: lightcoral;
+}
+#section_two{
+    margin: 20px 10px;
+}
+
+#section_three h2{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0;
+    background-color: skyblue;
+}
+#section_three{
+    margin: 20px 10px;
+}
+
