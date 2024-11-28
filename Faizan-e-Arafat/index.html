@@ -26,7 +26,13 @@
 
       <div class="header-location">
         <img src="assets/location.png" width="20dp" height="20dp" />
-        <p>Faizan-e-Arafat Masjid & Islamic Center, Preston</p>
+        <a
+          href="https://www.google.com/maps/place/Faizane+Arafat/@53.7742849,-2.6665737,17z/data=!3m1!4b1!4m6!3m5!1s0x487b723525fe93f7:0x8f0d582847af21f6!8m2!3d53.7742818!4d-2.6639988!16s%2Fg%2F1tlc_qp2?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
+          target="_blank"
+          class="location_link"
+        >
+          Faizan-e-Arafat Masjid & Islamic Center, Preston
+        </a>
       </div>
     </div>
 
@@ -47,55 +53,95 @@
     </table>
 
     <div class="grid-container">
-      <div class="grid-item"></div>
+      <div class="grid-item-blank"></div>
       <div class="grid-item grid-item-two">Faizan-e-Arafat Masjid</div>
-      <div class="grid-item"></div>
+      <div class="grid-item-blank"></div>
       <div class="grid-item grid-item-six">
         <p>Jummah</p>
-        <hr>
+        <hr />
         <p>01:00 PM</p>
         <p>Azaan 12:00 PM</p>
       </div>
       <div class="grid-item grid-item-seven">01:45:00 AM</div>
       <div class="grid-item grid-item-ten">
         <p>Qiyam</p>
-        <hr>
+        <hr />
         <p></p>
         <p>01:08 AM</p>
       </div>
       <div class="grid-item grid-item-eleven">
         <p>Fajar</p>
-        <hr>
+        <hr />
         <p>07:00 AM</p>
         <p>Azaan 06:40 AM</p>
       </div>
 
       <div class="grid-item grid-item-twelve">
         <p>Dhuhr</p>
-        <hr>
+        <hr />
         <p>12:30 PM</p>
         <p>Azaan 12:05 PM</p>
       </div>
 
       <div class="grid-item grid-item-thirteen">
         <p>Asr</p>
-        <hr>
+        <hr />
         <p>01:30 PM</p>
         <p>Azaan 12:50 PM</p>
       </div>
 
       <div class="grid-item grid-item-forteen">
         <p>Maghrib</p>
-        <hr>
+        <hr />
         <p>03:30 PM</p>
         <p>Azaan 03:10 PM</p>
       </div>
 
       <div class="grid-item grid-item-fifteen">
         <p>Isha</p>
-        <hr>
+        <hr />
         <p>06:10 PM</p>
         <p>Azaan 05:40 PM</p>
+      </div>
+    </div>
+
+    <div class="contact-main">
+      <div class="contact">Contact Us</div>
+      <div class="contact-details">
+        <p>Address:</p>
+        <address>
+          180 Ribbleton Ave, Ribbleton, Preston PR2 6QN, United Kingdom
+        </address>
+        <br />
+        <p>Phone Number: 090874321</p>
+
+        <form id="survey-form">
+          <label id="name-label" for="name"> Name: </label>
+          <input id="name" type="text" required placeholder="Enter your name" />
+
+          <label id="email-label" for="email"> Email: </label>
+          <input
+            id="email"
+            type="email"
+            required
+            placeholder="Enter your email"
+          />
+
+          <label for="message"
+            >Message Here: </label>
+
+            <textarea
+              id="message"
+              class="inline"
+              name="message"
+              rows="3"
+              cols="30"
+              placeholder="Please add your message..."
+            >
+            </textarea>
+          </label>
+          <input id="submit" type="submit" value="Submit" />
+        </form>
       </div>
     </div>
   </body>

@@ -1,3 +1,16 @@
+@media screen and (max-width: 800px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+
+    .grid-item-blank,
+    .grid-item-seven,
+    .grid-item-two {
+        visibility: hidden;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -60,7 +73,7 @@ button {
     border-radius: 10px;
 }
 
-.header-location p {
+.header-location a {
     color: white;
     font-size: 22px;
     position: relative;
@@ -69,7 +82,7 @@ button {
 
 .prayer-desc-table {
     width: 85%;
-    padding: 50px;
+    padding: 50px 0px;
     margin: 0 auto;
 }
 
@@ -82,7 +95,8 @@ button {
     margin: 0 auto;
     margin-bottom: 100px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: repeat(5, 1fr);
+    ;
     background-image: url(assets/5.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -95,19 +109,25 @@ button {
     text-align: center;
     border-radius: 10px;
 }
-hr{
+
+hr {
     margin: 5px 0;
 }
 
-.grid-item-six,.grid-item-ten, .grid-item-eleven,.grid-item-twelve, .grid-item-thirteen,
- .grid-item-forteen, .grid-item-fifteen,
-  .grid-item-sixteen  {
+.grid-item-six,
+.grid-item-ten,
+.grid-item-eleven,
+.grid-item-twelve,
+.grid-item-thirteen,
+.grid-item-forteen,
+.grid-item-fifteen,
+.grid-item-sixteen {
     background-color: #17262fb7;
     margin: 15px 25px;
     padding: 5px 5px;
 }
 
-.grid-item-two{
+.grid-item-two {
     grid-column: 2/span 3;
     text-align: center;
     font-size: 42px;
@@ -115,7 +135,7 @@ hr{
     color: #17262f;
 }
 
-.grid-item-seven{
+.grid-item-seven {
     grid-column: 2/span 3;
     text-align: center;
     font-size: 42px;
@@ -123,3 +143,41 @@ hr{
     padding: 20px 5px;
     color: #17262f;
 }
+
+label{
+    display:block;
+    margin-top: 10px;
+    }
+
+.contact-main {
+    margin: 0 auto;
+    width: 85%;
+    align-items: flex-start;
+}
+
+.contact, .contact-details {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+input[type=text],input[type=email], textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #17262f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
