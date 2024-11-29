@@ -153,6 +153,7 @@ label{
     margin: 0 auto;
     width: 85%;
     align-items: flex-start;
+    margin-bottom: 25px;
 }
 
 .contact, .contact-details {
@@ -181,3 +182,44 @@ input[type=text],input[type=email], textarea{
     border-radius: 4px;
     cursor: pointer;
   }
+
+.about-us-table {
+    width: 85%;
+    padding: 50px 0px;
+    margin: 0 auto;
+}
+
+.about-us-table td {
+    width: 50%;
+}
+
+.main-about-us{
+    width: 100%;
+    background-image: url(assets/particles.jpg);
+    box-sizing: border-box;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.about-us-div-one{
+    width: 30%;
+    height: 500px;
+    margin: 25px;
+}
+
+.about-us-div-two{
+    width: 30%;
+    height: 500px;
+    margin: 25px;
+}
+
+.about-list{
+    width: 25%;
+    display: inline-block;
+    margin: auto auto;
+}
+li{
+    padding: 20px 0;
+}
